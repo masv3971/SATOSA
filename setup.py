@@ -6,12 +6,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='SATOSA',
-    version='8.2.0',
+    version='8.2.0+sunet1',
     description='Protocol proxy (SAML/OIDC).',
     author='DIRG',
     author_email='satosa-dev@lists.sunet.se',
     license='Apache 2.0',
-    url='https://github.com/SUNET/SATOSA',
+    url='https://github.com/masv3971/SATOSA',
     packages=find_packages('src/'),
     package_dir={'': 'src'},
     install_requires=[
